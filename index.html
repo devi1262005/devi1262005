@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Explore everyday moments turned into captivating narratives. Join me as I delve into the few incidents that color my world, revealing insights and reflections that resonate with the simplicity of life.">
+    <title>Verily S</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XXXXX" crossorigin="anonymous" />
+ <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	
+	 <div class="jumbotron">
+
+	
+    <h1 class="display-4">V E R I L Y</h1>
+    <p class="lead">A collection of everything I had written so far. <br> Thank you for reading!</p>
+    <div class="containers">
+        <select onchange="changePage(this.value)">
+            <option value="1">Page 1</option>
+            <option value="2">Page 2</option>
+            <option value="3">Page 3</option>
+			<option value="4">Page 4</option>
+        </select>
+    </div>
+</div>
+
+    <br>
+	
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal">To love and to be loved</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page1.html" style="width:100%; height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal1">The Finish line</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page2.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+ 
+	
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal2">Slaughter</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page3.html" style="width:100%; height:405px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal3">First year.</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page4.html" style="width:100%; height:500px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal4">Don't re-read</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page5.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal5">Mountains and I</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page6.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal6">Memories</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page7.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal7">Festives</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page8.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal8">Will it rain today?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page9.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal9">Why fake emotions?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page10.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal10">Unintentional forgetfulness and regret</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page11.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal11">Sky</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page12.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal12">18 year old bed</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page13.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal13">Forgiveness</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page14.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+<div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal14">Routines</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page15.html" style="width:100%; height:425px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal15">Stay</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page16.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal16">Scream</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page17.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+<div class="modal fade" id="mymodal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal17">Sway</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page18.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+  <div class="modal fade" id="mymodal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal18">They Who</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page19.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	  <div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal19">Hamster</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page20.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal20">Life</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page21.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal21">Bluff</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page22.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal21">Lovers</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page23.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal21">Stair Gaze</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page24.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="modal fade" id="myModal24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+		  <h5 class="modal-title" id="mymodal21">Calendar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+         <div class="modal-body">
+             <iframe src="page/page25.html" style="width:100%;height:600px;" class="no-scroll"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+	<div class="alert-container">
+	<div class="alert alert-sm alert-danger alert-dismissible fade show" role="alert">
+  Tap on the cards for the writing!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div></div>
+<br>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+		
+            <!-- Card 1 -->
+            <div class="card" id="page1" data-toggle="modal" data-target="#myModal">
+                <div class="position-relative">
+                    <img src="images/tltl.jpeg" class="card-img" alt="To Love and To Be Loved" class="responsive">
+                    <div class="card-img-overlay text-black">
+					 <div class="bg-white bg p-3" style="opacity:.9">
+                        <h5 class="card-title">To Love and To Be Loved</h5>
+                        <div class="hide1"><p class="card-text">There's this fruit vendor on my daily route. Amazing how a simple smile can lead to free fruits and good vibes. Missing those moments a lot.</p>
+                    </div></div>
+                </div>
+				</div>
+            </div>
+            <!-- End Card 1 -->
+        </div>
+
+        <div class="col-md-4">
+            <!-- Card 2 -->
+            <div class="card" data-toggle="modal" data-target="#myModal1" data-content="">
+                <div class="position-relative">
+                    <img src="images/finline.jpg" class="card-img" alt="The Finish Line" class="responsive">
+					
+                    <div class="card-img-overlay text-black">
+					<div class="bg-white bg p-3" style="opacity:.9">
+                        <h5 class="card-title">The Finish Line</h5>
+                       <div class="hide1">  <p class="card-text">Wrote this one about life's endings—it's kinda scary, yet there's this strange excitement.</p>
+                    </div>
+					</div>
+                </div>
+            </div>
+            <!-- End Card 2 -->
+        </div></div>
+
+       <div class="col-md-4" >
+            <!-- Card 3 -->
+            <div class="card" data-toggle="modal" data-target="#myModal2" data-content="">
+                <div class="position-relative">
+                    <img src="images/slaughter.jpeg" class="card-img" alt="Slaughter" class="responsive">
+                    <div class="card-img-overlay text-black">
+					<div class="bg-white bg p-3" style="opacity:.9">
+                        <h5 class="card-title">Slaughter</h5>
+                       <div class="hide1">  <p class="card-text">While I was writing this, some kids were waving and smiling at me. I cannot even find this writing sad anymore because of that memory, I smile whenever I read this.</p>
+                    </div>
+                </div>
+				</div>
+            </div>
+            <!-- End Card 3 -->
+        </div>
+  </div>
+  <div class="col-md-4" >
+            <!-- Card 3 -->
+            <div class="card" data-toggle="modal" data-target="#myModal3" data-content="">
+                <div class="position-relative">
+                    <img src="images/1styearover.jpeg" class="card-img" alt="Slaughter" class="responsive">
+                    <div class="card-img-overlay text-black">
+					<div class="bg-white bg p-3" style="opacity:.9">
+                        <h5 class="card-title">First year</h5>
+                       <div class="hide1">  <p class="card-text">Reminiscing about the times I struggled in class. Love sharing stories about the past</p>
+                    </div>
+                </div>
+				</div>
+            </div>
+            <!-- End Card 3 -->
+        </div>
+  </div>
+    <div class="col-md-4">
+    <!-- Card 5 - Don't Reread -->
+    <div class="card" data-toggle="modal" data-target="#myModal4" data-content="">
+        <div class="position-relative">
+            <img src="images/emotions.jpeg" class="card-img" alt="Don't Reread" class="responsive">
+            <div class="card-img-overlay text-black">
+                <div class="bg-white bg p-4" style="opacity:.9">
+                    <h5 class="card-title">Don't Reread</h5>
+                    <div class="hide1"> <!-- Apply hide class to this div -->
+                        <p class="card-text">Named it after a day I dissociated in class. Someone noticed I looked like I lost everything. Tried to crack a joke, but words failed me at that moment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card 5 -->
+    </div>
+        <div class="col-md-4">
+            <!-- Card 6 - Mountains and I -->
+            <div class="card" id="page2" class="page hide" data-toggle="modal" data-target="#myModal5" data-content="">
+                <div class="position-relative">
+                    <img src="images/mount.png" class="card-img" alt="Mountains and I" class="responsive">
+                    <div class="card-img-overlay text-black"><div class="bg-white bg p-4" style="opacity:.9">
+                        <h5 class="card-title">Mountains and I</h5>
+                        <div class="hide1"> <p class="card-text">My first-ever piece. No fancy stuff, just my raw thoughts. Can't bring myself to change it—it's like my baby.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div></div>
+		 <div class="col-md-4">
+            <!-- Card 6 - Mountains and I -->
+            <div class="card" id="page2" class="page hide" data-toggle="modal" data-target="#myModal7" data-content="">
+                <div class="position-relative">
+                    <img src="images/festives.jpg" class="card-img" alt="Mountains and I" class="responsive">
+                    <div class="card-img-overlay text-black"><div class="bg-white bg p-4" style="opacity:.9">
+                        <h5 class="card-title">Festives</h5>
+                        <div class="hide1"> <p class="card-text">Its about festivals and people,the adults were always the same, the kid never noticed it, but now that she is an adult she does notice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div></div>
+		<div class="col-md-4">
+    <!-- Card 10 - Will it rain today? -->
+    <div class="card" data-toggle="modal" data-target="#myModal8" data-content="page8.html">
+        <img src="images/rain.jpeg" class="card-img" alt="Will it rain today?" class="responsive">
+         <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Will it rain today?</h5>
+             <div class="hide1"><p class="card-text">I love everything about rain, except for the streets, that get nasty with plastic bags.</p>
+        </div>
+    </div></div>
+    <!-- End Card 10 -->
+</div></div>
+
+<div class="col-md-4">
+    <!-- Card 11 - Why Fake Emotions? -->
+    <div class="card" data-toggle="modal" data-target="#myModal9" data-content="">
+        <img src="images/emotions.jpeg" class="card-img" alt="Why Fake Emotions?" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Why Fake Emotions?</h5>
+            <div class="hide1"> <p class="card-text">Most people are so strong, so good at pretending. I just wrote it when someone told me to always smile, but I wanted to be sad, so I can let go.</p>
+        </div>
+    </div></div>
+    <!-- End Card 11 -->
+</div></div>
+
+<div class="col-md-4">
+    <!-- Card 12 - Unintentional Forgetfulness and Regret -->
+    <div class="card" data-toggle="modal" data-target="#myModal10" data-content="">
+        <img src="images/forget.jpeg" class="card-img" alt="Unintentional Forgetfulness and Regret" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h6 class="card-title">Unintentional Forgetfulness and Regret.</h6>
+           <div class="hide1">  <p class="card-text"> I struggle to respond to texts at home due to personal reasons. It leaves me feeling overwhelmed.
+    </p></div></div><!-- End Card 12 -->
+</div></div> </div>
+
+<div class="col-md-4">
+    <!-- Card 13 - Sky -->
+    <div class="card" data-toggle="modal" data-target="#myModal11" data-content="">
+        <img src="images/sky.jpeg" class="card-img" alt="Sky" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Sky.</h5>
+            <div class="hide1" style="font-size:5px"> <p class="card-text">I love lying down, absorbing fleeting moments, watching clouds drift, stars twinkle, and patterns emerge. Some nights, I dream of stars, longing to see them before sleep.</p></div>
+    <!-- End Card 13 -->
+</div></div>
+</div></div>
+
+<div class="col-md-4">
+    <!-- Card 14 - 18 Year Old Bed -->
+    <div class="card" data-toggle="modal" data-target="#myModal12" data-content="">
+        <img src="images/home.jpeg" class="card-img" alt="18 Year Old Bed" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">18 Year Old Bed</h5>
+           <div class="hide1">  <p class="card-text">Turning thoughts into four stanzas. Fond of my furniture—they've seen me through thick and thin, my closest confidants.</p></div>
+    </div>
+    <!-- End Card 14 -->
+</div>
+</div></div>
+<div class="col-md-4">
+    <!-- Card 15 - Forgiver -->
+    <div class="card" id="page3" class="page hide" data-toggle="modal" data-target="#myModal13" data-content="">
+        <img src="images/forgiveness.jpeg" class="card-img" alt="Forgiver" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Forgiver</h5>
+            <div class="hide1"> <p class="card-text">Forgiving takes a lot of energy, and I do it so I can move on. It takes a lot of maturity to be honest.</p>
+        </div>
+    </div>
+    <!-- End Card 15 -->
+</div>
+</div></div>
+<div class="col-md-4">
+    <!-- Card 16 - Routines -->
+    <div class="card" data-toggle="modal" data-target="#myModal14" data-content="">
+        <img src="images/routine.jpeg" class="card-img" alt="Routines" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Routines</h5>
+            <div class="hide1"> <p class="card-text">
+I have a love-hate relationship with routines. Mostly hate. Repetition feels suffocating, limiting my freedom.</p>
+        </div>
+    </div>
+    <!-- End Card 16 -->
+</div>
+</div></div>
+<div class="col-md-4">
+    <!-- Card 17 - Stay -->
+    <div class="card" data-toggle="modal" data-target="#myModal15" data-content="">
+        <img src="images/stay.jpg" class="card-img" alt="Stay" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Stay</h5>
+          <div class="hide1">   <p class="card-text">Yeah, abandonment issues.</p>
+        </div>
+    </div></div>
+    <!-- End Card 17 -->
+</div></div>
+<div class="col-md-4">
+    <!-- Card 18 - Scream -->
+    <div class="card" data-toggle="modal" data-target="#myModal16" data-content="">
+        <img src="images/yell.jpg" class="card-img" style="width:100%" alt="Scream" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Scream</h5>
+            <div class="hide1"> <p class="card-text">Just kind of imagined a place where you scream your lungs out, but everyone just pretends they did not hear that.</p>
+        </div>
+    </div>
+    <!-- End Card 18 -->
+</div></div></div>
+<!-- End of Column -->
+<div class="col-md-4">
+    <!-- Card 19 - Sway -->
+    <div class="card" data-toggle="modal" data-target="#mymodal17" data-content="">
+        <img src="images/sway.jpeg" class="card-img" alt="Sway" class="responsive">
+      <div class="card-img-overlay text-black"><div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Sway</h5>
+            <div class="hide1"> <p class="card-text">The yearning for love, recognition, and understanding is both a tragedy and a bliss. The simple desire for connection can profoundly shake a person, altering their core values.</p>
+        </div>
+    </div>
+    <!-- End Card 19 -->
+</div>
+</div></div>
+
+<div class="col-md-4">
+    <!-- Card 20 - They who -->
+    <div class="card" data-toggle="modal" data-target="#mymodal18" data-content="">
+        <img src="images/persona.png" class="card-img" alt="They who" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">They who</h5>
+            <div class="hide1"> <p class="card-text">Observations, from within and from everywhere.Of the people who no longer recognise themselves.</p>
+        </div>
+    </div>
+    <!-- End Card 20 -->
+</div></div></div>
+<div class="col-md-4">
+    <!-- Card 20 - They who -->
+    <div class="card" data-toggle="modal" data-target="#myModal19" data-content="">
+        <img src="images/ham.jpeg" class="card-img" alt="Hamster" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Hamster</h5>
+            <div class="hide1"> <p class="card-text">My hate for routines, but I am talking to the hamster on wheels.</p>
+        </div>
+    </div>
+    <!-- End Card 20 -->
+</div></div></div>
+<div class="col-md-4">
+    <!-- Card 20 - They who -->
+    <div class="card" data-toggle="modal" data-target="#myModal20" data-content="">
+        <img src="images/life.jpg" style="height:100%" class="card-img" alt="Waves" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Life</h5>
+            <div class="hide1"> <p class="card-text">This is about the way I wish I could pause and enjoy the life around me, as I used to.</p>
+        </div>
+    </div></div></div></div>
+	<div class="col-md-4">
+    <!-- Card 20 - They who -->
+    <div class="card" data-toggle="modal" data-target="#myModal21" data-content="">
+        <img src="images/pg22.jpg" style="height:100%" class="card-img" alt="Birds" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Bluff</h5>
+            <div class="hide1"> <p class="card-text">Some philosophical things that I thought over, way back then.</p>
+        </div>
+		
+    </div></div></div></div>
+	<div class="col-md-4">
+	<div class="card" data-toggle="modal" data-target="#myModal22" data-content="">
+        <img src="images/lovers.jpg" style="height:100%" class="card-img" alt="Waves" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Lovers</h5>
+            <div class="hide1"> <p class="card-text">Some different kinds of lovers, I have seen all the while I exist.</p>
+        </div>
+    </div></div></div></div>
+	<div class="col-md-4">
+	<div class="card" data-toggle="modal" data-target="#myModal23" data-content="">
+        <img src="images/star.jpg" style="height:100%" class="card-img" alt="Star" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Stair Gaze</h5>
+            <div class="hide1"> <p class="card-text">Don't ever take a house with upstairs for granted, please star gaze every while.</p>
+        </div>
+    </div></div></div></div>
+	<div class="col-md-4">
+	<div class="card" data-toggle="modal" data-target="#myModal24" data-content="">
+        <img src="images/calen.jpg" style="height:100%" class="card-img" alt="Star" class="responsive">
+      <div class="card-img-overlay text-black">
+	  <div class="bg-white bg p-3" style="opacity:.9">
+            <h5 class="card-title">Calendar</h5>
+            <div class="hide1"> <p class="card-text">Objective narration, of a parting. </p>
+        </div>
+    </div></div></div></div>
+</div></div>
+ <br><br><br>
+ 
+		<br><br>
+		<div class="top-arrow" onclick="scrollToTop()">
+        &uarr;
+    </div>
+            <footer class="text-center" id="footer">
+                &copy; Verily S. All the words are mine! Shades created by me using Paint!
+            </footer>
+<script>
+  const itemsPerPage = 6;
+  const cards = document.querySelectorAll('.card');
+  const paginationContainer = document.getElementById('pagination-container');
+   const topArrow = document.querySelector('.top-arrow');
+
+  let currentPage = 1;
+
+  function showPage(page) {
+    cards.forEach((card, index) => {
+      const start = (page - 1) * itemsPerPage;
+      const end = page * itemsPerPage;
+
+      if (index >= start && index < end) {
+        card.style.display = 'inline-block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function changePage(page) {
+    currentPage = page;
+    showPage(currentPage);
+  }
+
+  showPage(currentPage);
+    function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Show/hide top arrow based on scroll position
+        window.addEventListener('scroll', function () {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.body.scrollHeight;
+            const scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+            if (documentHeight - scrollPosition <= windowHeight) {
+                topArrow.style.display = 'block';
+            } else {
+                topArrow.style.display = 'none';
+            }
+        });
+</script>
+
+</body>
+</html>
+
+
