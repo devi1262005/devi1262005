@@ -3,11 +3,11 @@
 <p align="left">
   I'm passionate about building applications that make a difference. With a strong background in both front-end and back-end development, I love creating seamless user experiences and robust functionalities. I'm always eager to learn new technologies and enhance my skill set. When I'm not coding, you can find me exploring new tech trends or enjoying a good book.
 </p>
-<p align="left">
- This does not reflect, on my technological stack, this is what GitHub Alogrithms, infer at.
-</p>
-###
 
+###
+<p align="left">
+ This does not reflect, on my technological stack, this is what GitHub Alogrithms, infer at. Not very active here, but I’ll engage more!
+</p>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devi1262005&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=devi1262005&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
