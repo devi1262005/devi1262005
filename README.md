@@ -3,7 +3,9 @@
 <p align="left">
   I'm passionate about building applications that make a difference. With a strong background in both front-end and back-end development, I love creating seamless user experiences and robust functionalities. I'm always eager to learn new technologies and enhance my skill set. When I'm not coding, you can find me exploring new tech trends or enjoying a good book.
 </p>
-
+<p align="left">
+ This does not reflect, on my technological stack, this is what GitHub Alogrithms, infer at.
+</p>
 ###
 
 <div align="center">
