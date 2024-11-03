@@ -1,3 +1,5 @@
+   
+    
 <h2 align="left">Hi 👋! I am an Application Developer from India!</h2>
 
 <p align="left">
@@ -5,9 +7,11 @@
 </p>
 
 ###
+
 <p align="left">
- This does not reflect, on my technological stack, this is what GitHub Alogrithms, infer at. Not very active here, but I’ll engage more!
+  This does not reflect on my technological stack; this is what GitHub algorithms infer at. Not very active here, but I’ll engage more!
 </p>
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devi1262005&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=devi1262005&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
@@ -18,7 +22,14 @@
 <img align="right" height="150" src="https://cdn.dribbble.com/users/603800/screenshots/4569474/dribbble-code.gif" />
 
 ###
+<div style="background-color: #f3f4f6; border-left: 5px solid #975c3e; padding: 20px; margin: 20px 0; border-radius: 8px;">
+    <p style="font-family: 'Times New Roman', serif; font-size: 1.2em; font-style: italic; color: #333; line-height: 1.5;">
+        “Technology is best when it brings people together.” – <strong>Matt Mullenweg</strong>
+    </p>
+</div>
 
+
+<div align="left" style="margin-top: 20px; margin-bottom: 20px; background: linear-gradient(135deg, #f8d3e0, #ffb6b1); padding: 20px; border-radius: 8px;">
 <div align="left" style="margin-top: 20px; margin-bottom: 20px;">
   <h3>🛠️ Technologies & Tools:</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
