@@ -9,7 +9,7 @@
 ###
 
 <p align="left">
-  This does not reflect on my technological stack; this is what GitHub algorithms infer at. Not very active here, but I’ll engage more!
+  This does not reflect on my technological stack!
 </p>
 
 <div align="center">
